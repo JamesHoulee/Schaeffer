@@ -1,0 +1,1373 @@
+Magma V2.29-7     Mon Oct 19 2026 15:34:35 on cecm-maple [Seed = 3396732590]
+Type ? for help.  Type <Ctrl>-D to quit.
+Magma V2.29-7     Mon Oct 19 2026 15:34:47 on cecm-maple [Seed = 2143531751]
+Type ? for help.  Type <Ctrl>-D to quit.
+generating cases
+generating forms
+( 1 \ 120 ) Trying to eliminate case = [
+    [ 2, 5/7 ],
+    [ 3, 10/7 ],
+    [ 4, 3 ]
+]
+Primes after modular: { 2, 3, 11 }
+Log bound: 2060
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 2 \ 120 ) Trying to eliminate case = [
+    [ 2, 5/7 ],
+    [ 3/8191, 10/7 ],
+    [ 4, 3/8191 ]
+]
+Primes after modular: { 2, 3, 5, 7, 11, 13 }
+Log bound: 2084
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 3 \ 120 ) Trying to eliminate case = [
+    [ 2, 15 ],
+    [ 1/7, 30 ],
+    [ 4, 1/7 ]
+]
+Primes after modular: { 2, 3, 5, 7 }
+Log bound: 3989
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 4 \ 120 ) Trying to eliminate case = [
+    [ 2/7, 3 ],
+    [ 5, 6 ],
+    [ 4/7, 5 ]
+]
+Primes after modular: { 2, 3, 5, 11 }
+Log bound: 3155
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 5 \ 120 ) Trying to eliminate case = [
+    [ 2, 5 ],
+    [ 3/7, 10 ],
+    [ 4, 3/7 ]
+]
+Primes after modular: { 2, 3, 5 }
+Log bound: 1613
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 6 \ 120 ) Trying to eliminate case = [
+    [ 1, 10/7 ],
+    [ 3, 20/7 ],
+    [ 2, 3 ]
+]
+Primes after modular: { 2, 3, 5 }
+Log bound: 1519
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 7 \ 120 ) Trying to eliminate case = [
+    [ 5, 6 ],
+    [ 1/57337, 12 ],
+    [ 10, 1/57337 ]
+]
+Primes after modular: { 2, 3, 5, 11 }
+Log bound: 15081
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 8 \ 120 ) Trying to eliminate case = [
+    [ 6, 5 ],
+    [ 1/57337, 10 ],
+    [ 12, 1/57337 ]
+]
+Primes after modular: { 2, 3, 5, 11 }
+Log bound: 15081
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 9 \ 120 ) Trying to eliminate case = [
+    [ 1, 6/7 ],
+    [ 1/8191, 12/7 ],
+    [ 2, 1/8191 ]
+]
+Primes after modular: { 2, 3, 5, 7 }
+Log bound: 1386
+Primes after local kraus: { 2, 3 }
+Primes after p^2: { 2, 3 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 10 \ 120 ) Trying to eliminate case = [
+    [ 1, 2/7 ],
+    [ 3, 4/7 ],
+    [ 2, 3 ]
+]
+Primes after modular: { 2, 3, 7 }
+Log bound: 1975
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 11 \ 120 ) Trying to eliminate case = [
+    [ 2, 5 ],
+    [ 3/8191, 10 ],
+    [ 4, 3/8191 ]
+]
+Primes after modular: { 2, 3, 5 }
+Log bound: 1613
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 12 \ 120 ) Trying to eliminate case = [
+    [ 1, 6 ],
+    [ 1/57337, 12 ],
+    [ 2, 1/57337 ]
+]
+Primes after modular: { 2, 3, 7 }
+Log bound: 2294
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 13 \ 120 ) Trying to eliminate case = [
+    [ 1, 2 ],
+    [ 3/7, 4 ],
+    [ 2, 3/7 ]
+]
+DM
+( 14 \ 120 ) Trying to eliminate case = [
+    [ 3/7, 2 ],
+    [ 1, 4 ],
+    [ 6/7, 1 ]
+]
+Primes after modular: { 2, 3 }
+Log bound: 1386
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 15 \ 120 ) Trying to eliminate case = [
+    [ 1, 2/7 ],
+    [ 3/8191, 4/7 ],
+    [ 2, 3/8191 ]
+]
+Primes after modular: { 2, 3, 7 }
+Log bound: 1975
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 16 \ 120 ) Trying to eliminate case = [
+    [ 2, 3 ],
+    [ 5/7, 6 ],
+    [ 4, 5/7 ]
+]
+Primes after modular: { 2, 3, 7 }
+Log bound: 2825
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 17 \ 120 ) Trying to eliminate case = [
+    [ 1/7, 2 ],
+    [ 3/8191, 4 ],
+    [ 2/7, 3/8191 ]
+]
+Primes after modular: { 2, 3, 7 }
+Log bound: 3234
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 18 \ 120 ) Trying to eliminate case = [
+    [ 2, 3 ],
+    [ 1/57337, 6 ],
+    [ 4, 1/57337 ]
+]
+Primes after modular: { 2, 3, 7 }
+Log bound: 14013
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 19 \ 120 ) Trying to eliminate case = [
+    [ 1/7, 6 ],
+    [ 1, 12 ],
+    [ 2/7, 1 ]
+]
+Primes after modular: { 2, 3, 7 }
+Log bound: 1975
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 20 \ 120 ) Trying to eliminate case = [
+    [ 2/7, 15 ],
+    [ 1, 30 ],
+    [ 4/7, 1 ]
+]
+Primes after modular: { 2, 3, 5, 7 }
+Log bound: 1509
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 21 \ 120 ) Trying to eliminate case = [
+    [ 2, 3 ],
+    [ 1/7, 6 ],
+    [ 4, 1/7 ]
+]
+Primes after modular: { 2, 3, 7 }
+Log bound: 3989
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 22 \ 120 ) Trying to eliminate case = [
+    [ 1, 2 ],
+    [ 15, 4 ],
+    [ 2, 15 ]
+]
+DM
+( 23 \ 120 ) Trying to eliminate case = [
+    [ 1/7, 2 ],
+    [ 15, 4 ],
+    [ 2/7, 15 ]
+]
+Primes after modular: { 2, 3, 7 }
+Log bound: 2300
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 24 \ 120 ) Trying to eliminate case = [
+    [ 3, 2 ],
+    [ 1/8191, 4 ],
+    [ 6, 1/8191 ]
+]
+Primes after modular: { 2, 3, 5 }
+Log bound: 11795
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 25 \ 120 ) Trying to eliminate case = [
+    [ 5, 6 ],
+    [ 1, 12 ],
+    [ 10, 1 ]
+]
+Primes after modular: { 2, 3, 5 }
+Log bound: 2846
+Primes after local kraus: { 2, 3 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 26 \ 120 ) Trying to eliminate case = [
+    [ 3, 10 ],
+    [ 1/8191, 20 ],
+    [ 6, 1/8191 ]
+]
+Primes after modular: { 2, 3, 5, 7 }
+Log bound: 2068
+Primes after local kraus: { 2, 3 }
+Primes after p^2: { 2, 3 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 27 \ 120 ) Trying to eliminate case = [
+    [ 3/7, 2 ],
+    [ 1/8191, 4 ],
+    [ 6/7, 1/8191 ]
+]
+Primes after modular: { 2, 3, 5, 7 }
+Log bound: 2432
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 28 \ 120 ) Trying to eliminate case = [
+    [ 1, 30 ],
+    [ 1/57337, 60 ],
+    [ 2, 1/57337 ]
+]
+Primes after modular: { 2, 3, 5, 11 }
+Log bound: 4047
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 29 \ 120 ) Trying to eliminate case = [
+    [ 1, 2 ],
+    [ 3/8191, 4 ],
+    [ 2, 3/8191 ]
+]
+DM
+( 30 \ 120 ) Trying to eliminate case = [
+    [ 1/7, 30 ],
+    [ 1/8191, 60 ],
+    [ 2/7, 1/8191 ]
+]
+Primes after modular: { 2, 3, 5, 7, 11 }
+Log bound: 6189
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 31 \ 120 ) Trying to eliminate case = [
+    [ 3, 2 ],
+    [ 5, 4 ],
+    [ 6, 5 ]
+]
+consistent
+<0>
+( 32 \ 120 ) Trying to eliminate case = [
+    [ 3, 10/7 ],
+    [ 1/8191, 20/7 ],
+    [ 6, 1/8191 ]
+]
+Primes after modular: { 2, 3, 5, 7, 11 }
+Log bound: 2060
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 33 \ 120 ) Trying to eliminate case = [
+    [ 2, 3 ],
+    [ 5, 6 ],
+    [ 4, 5 ]
+]
+consistent
+<0>
+( 34 \ 120 ) Trying to eliminate case = [
+    [ 5, 6/7 ],
+    [ 1/8191, 12/7 ],
+    [ 10, 1/8191 ]
+]
+Primes after modular: { 2, 3, 5, 7, 11 }
+Log bound: 2940
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 35 \ 120 ) Trying to eliminate case = [
+    [ 1, 6 ],
+    [ 1/7, 12 ],
+    [ 2, 1/7 ]
+]
+Primes after modular: { 2, 3, 7 }
+Log bound: 2294
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 36 \ 120 ) Trying to eliminate case = [
+    [ 1, 30/7 ],
+    [ 1, 60/7 ],
+    [ 2, 1 ]
+]
+DM
+( 37 \ 120 ) Trying to eliminate case = [
+    [ 6/7, 5 ],
+    [ 1, 10 ],
+    [ 12/7, 1 ]
+]
+Primes after modular: { 2, 3, 5 }
+Log bound: 1710
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 38 \ 120 ) Trying to eliminate case = [
+    [ 1/7, 6 ],
+    [ 5/8191, 12 ],
+    [ 2/7, 5/8191 ]
+]
+Primes after modular: { 2, 3, 5, 7, 11 }
+Log bound: 8183
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 39 \ 120 ) Trying to eliminate case = [
+    [ 2, 3/7 ],
+    [ 5/8191, 6/7 ],
+    [ 4, 5/8191 ]
+]
+Primes after modular: { 2, 3, 5, 7, 11 }
+Log bound: 2432
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 40 \ 120 ) Trying to eliminate case = [
+    [ 6, 5/7 ],
+    [ 1/8191, 10/7 ],
+    [ 12, 1/8191 ]
+]
+Primes after modular: { 2, 3, 5, 7, 11 }
+Log bound: 3264
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 41 \ 120 ) Trying to eliminate case = [
+    [ 2, 15 ],
+    [ 1/8191, 30 ],
+    [ 4, 1/8191 ]
+]
+Primes after modular: { 2, 3, 5, 7 }
+Log bound: 11795
+Primes after local kraus: { 2, 3 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 42 \ 120 ) Trying to eliminate case = [
+    [ 5, 6 ],
+    [ 1/7, 12 ],
+    [ 10, 1/7 ]
+]
+Primes after modular: { 2, 3, 11 }
+Log bound: 4995
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 43 \ 120 ) Trying to eliminate case = [
+    [ 2, 15 ],
+    [ 1/57337, 30 ],
+    [ 4, 1/57337 ]
+]
+Primes after modular: { 2, 3, 5, 11 }
+Log bound: 14013
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 44 \ 120 ) Trying to eliminate case = [
+    [ 5, 6/7 ],
+    [ 1, 12/7 ],
+    [ 10, 1 ]
+]
+Primes after modular: { 2, 3, 5 }
+Log bound: 1710
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 45 \ 120 ) Trying to eliminate case = [
+    [ 3/7, 10 ],
+    [ 1, 20 ],
+    [ 6/7, 1 ]
+]
+Primes after modular: { 2, 3, 5, 7 }
+Log bound: 1386
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 46 \ 120 ) Trying to eliminate case = [
+    [ 1, 2 ],
+    [ 15/8191, 4 ],
+    [ 2, 15/8191 ]
+]
+DM
+( 47 \ 120 ) Trying to eliminate case = [
+    [ 1, 10 ],
+    [ 3, 20 ],
+    [ 2, 3 ]
+]
+Primes after modular: { 2, 3, 5 }
+Log bound: 2825
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 48 \ 120 ) Trying to eliminate case = [
+    [ 2, 5 ],
+    [ 3/57337, 10 ],
+    [ 4, 3/57337 ]
+]
+Primes after modular: { 2, 3, 5 }
+Log bound: 1613
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 49 \ 120 ) Trying to eliminate case = [
+    [ 1, 30 ],
+    [ 1, 60 ],
+    [ 2, 1 ]
+]
+DM
+( 50 \ 120 ) Trying to eliminate case = [
+    [ 1, 6 ],
+    [ 5/8191, 12 ],
+    [ 2, 5/8191 ]
+]
+Primes after modular: { 2, 3, 7 }
+Log bound: 2294
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 51 \ 120 ) Trying to eliminate case = [
+    [ 1/7, 10 ],
+    [ 3/8191, 20 ],
+    [ 2/7, 3/8191 ]
+]
+Primes after modular: { 2, 3, 5, 7, 11, 13 }
+Log bound: 4995
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 52 \ 120 ) Trying to eliminate case = [
+    [ 2/7, 3 ],
+    [ 1/8191, 6 ],
+    [ 4/7, 1/8191 ]
+]
+Primes after modular: { 2, 3, 5, 7 }
+Log bound: 3155
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 53 \ 120 ) Trying to eliminate case = [
+    [ 1, 2 ],
+    [ 3/57337, 4 ],
+    [ 2, 3/57337 ]
+]
+DM
+( 54 \ 120 ) Trying to eliminate case = [
+    [ 3, 2 ],
+    [ 5/57337, 4 ],
+    [ 6, 5/57337 ]
+]
+Primes after modular: { 2, 3, 7 }
+Log bound: 12639
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 55 \ 120 ) Trying to eliminate case = [
+    [ 1/7, 10 ],
+    [ 3, 20 ],
+    [ 2/7, 3 ]
+]
+Primes after modular: { 2, 3, 11 }
+Log bound: 2825
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 56 \ 120 ) Trying to eliminate case = [
+    [ 1, 30 ],
+    [ 1/7, 60 ],
+    [ 2, 1/7 ]
+]
+Primes after modular: { 2, 3, 7 }
+Log bound: 3234
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 57 \ 120 ) Trying to eliminate case = [
+    [ 1, 10 ],
+    [ 3/8191, 20 ],
+    [ 2, 3/8191 ]
+]
+Primes after modular: { 2, 3, 5 }
+Log bound: 10130
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 58 \ 120 ) Trying to eliminate case = [
+    [ 1, 30/7 ],
+    [ 1/8191, 60/7 ],
+    [ 2, 1/8191 ]
+]
+Primes after modular: { 2, 3, 5, 7, 11 }
+Log bound: 2676
+Primes after local kraus: { 2, 3 }
+Primes after p^2: { 2, 3 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 59 \ 120 ) Trying to eliminate case = [
+    [ 3, 2 ],
+    [ 1/57337, 4 ],
+    [ 6, 1/57337 ]
+]
+Primes after modular: { 2, 3, 7 }
+Log bound: 14013
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 60 \ 120 ) Trying to eliminate case = [
+    [ 1, 10/7 ],
+    [ 3/8191, 20/7 ],
+    [ 2, 3/8191 ]
+]
+Primes after modular: { 2, 3, 5, 7, 11, 13 }
+Log bound: 1519
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 61 \ 120 ) Trying to eliminate case = [
+    [ 2/7, 3 ],
+    [ 5/8191, 6 ],
+    [ 4/7, 5/8191 ]
+]
+Primes after modular: { 2, 3, 5, 7, 11 }
+Log bound: 3155
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 62 \ 120 ) Trying to eliminate case = [
+    [ 1, 2/7 ],
+    [ 15, 4/7 ],
+    [ 2, 15 ]
+]
+Primes after modular: { 2, 3, 7 }
+Log bound: 1975
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 63 \ 120 ) Trying to eliminate case = [
+    [ 1, 6/7 ],
+    [ 1, 12/7 ],
+    [ 2, 1 ]
+]
+DM
+( 64 \ 120 ) Trying to eliminate case = [
+    [ 2, 15/7 ],
+    [ 1, 30/7 ],
+    [ 4, 1 ]
+]
+Primes after modular: { 2, 3 }
+Log bound: 1478
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 65 \ 120 ) Trying to eliminate case = [
+    [ 1, 6 ],
+    [ 1/8191, 12 ],
+    [ 2, 1/8191 ]
+]
+Primes after modular: { 2, 3, 5 }
+Log bound: 2294
+Primes after local kraus: { 2, 3 }
+Primes after p^2: { 2, 3 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 66 \ 120 ) Trying to eliminate case = [
+    [ 2, 3/7 ],
+    [ 1, 6/7 ],
+    [ 4, 1 ]
+]
+Primes after modular: { 2, 3 }
+Log bound: 1386
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 67 \ 120 ) Trying to eliminate case = [
+    [ 3/7, 2 ],
+    [ 5, 4 ],
+    [ 6/7, 5 ]
+]
+Primes after modular: { 2, 3, 5, 7 }
+Log bound: 2432
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 68 \ 120 ) Trying to eliminate case = [
+    [ 1/7, 30 ],
+    [ 1, 60 ],
+    [ 2/7, 1 ]
+]
+Primes after modular: { 2, 3, 7 }
+Log bound: 1975
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 69 \ 120 ) Trying to eliminate case = [
+    [ 1, 30 ],
+    [ 1/8191, 60 ],
+    [ 2, 1/8191 ]
+]
+Primes after modular: { 2, 3, 5, 7 }
+Log bound: 4047
+Primes after local kraus: { 2, 3 }
+Primes after p^2: { 2, 3 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 70 \ 120 ) Trying to eliminate case = [
+    [ 3, 10/7 ],
+    [ 1, 20/7 ],
+    [ 6, 1 ]
+]
+Primes after modular: { 2, 3, 5 }
+Log bound: 2060
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 71 \ 120 ) Trying to eliminate case = [
+    [ 3, 10 ],
+    [ 1/7, 20 ],
+    [ 6, 1/7 ]
+]
+Primes after modular: { 2, 3, 11 }
+Log bound: 2068
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 72 \ 120 ) Trying to eliminate case = [
+    [ 1, 6 ],
+    [ 5, 12 ],
+    [ 2, 5 ]
+]
+Primes after modular: { 2, 3, 5 }
+Log bound: 1613
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 73 \ 120 ) Trying to eliminate case = [
+    [ 2, 3 ],
+    [ 1, 6 ],
+    [ 4, 1 ]
+]
+Primes after modular: { 2, 3 }
+Log bound: 1846
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 74 \ 120 ) Trying to eliminate case = [
+    [ 1, 10 ],
+    [ 3/7, 20 ],
+    [ 2, 3/7 ]
+]
+Primes after modular: { 2, 3, 5 }
+Log bound: 2432
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 75 \ 120 ) Trying to eliminate case = [
+    [ 5, 6 ],
+    [ 1/8191, 12 ],
+    [ 10, 1/8191 ]
+]
+Primes after modular: { 2, 3, 5, 7 }
+Log bound: 12843
+Primes after local kraus: { 2, 3 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 76 \ 120 ) Trying to eliminate case = [
+    [ 3, 2/7 ],
+    [ 5, 4/7 ],
+    [ 6, 5 ]
+]
+Primes after modular: { 2, 3, 5, 7, 11 }
+Log bound: 3155
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 77 \ 120 ) Trying to eliminate case = [
+    [ 1/7, 2 ],
+    [ 3, 4 ],
+    [ 2/7, 3 ]
+]
+Primes after modular: { 2, 3, 7 }
+Log bound: 3155
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 78 \ 120 ) Trying to eliminate case = [
+    [ 6/7, 5 ],
+    [ 1/8191, 10 ],
+    [ 12/7, 1/8191 ]
+]
+Primes after modular: { 2, 3, 5, 7, 11 }
+Log bound: 2940
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 79 \ 120 ) Trying to eliminate case = [
+    [ 6, 5/7 ],
+    [ 1, 10/7 ],
+    [ 12, 1 ]
+]
+Primes after modular: { 2, 3, 11 }
+Log bound: 1519
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 80 \ 120 ) Trying to eliminate case = [
+    [ 6, 5 ],
+    [ 1/8191, 10 ],
+    [ 12, 1/8191 ]
+]
+Primes after modular: { 2, 3, 5, 7 }
+Log bound: 12843
+Primes after local kraus: { 2, 3 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 81 \ 120 ) Trying to eliminate case = [
+    [ 3, 10 ],
+    [ 1/57337, 20 ],
+    [ 6, 1/57337 ]
+]
+Primes after modular: { 2, 3, 5, 11 }
+Log bound: 2068
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 82 \ 120 ) Trying to eliminate case = [
+    [ 3/7, 2 ],
+    [ 5/8191, 4 ],
+    [ 6/7, 5/8191 ]
+]
+Primes after modular: { 2, 3, 5, 7, 11 }
+Log bound: 2432
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 83 \ 120 ) Trying to eliminate case = [
+    [ 1, 6 ],
+    [ 5/57337, 12 ],
+    [ 2, 5/57337 ]
+]
+Primes after modular: { 2, 3, 7 }
+Log bound: 2294
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 84 \ 120 ) Trying to eliminate case = [
+    [ 3, 2 ],
+    [ 5/7, 4 ],
+    [ 6, 5/7 ]
+]
+Primes after modular: { 2, 3, 7 }
+Log bound: 2825
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 85 \ 120 ) Trying to eliminate case = [
+    [ 6, 5 ],
+    [ 1, 10 ],
+    [ 12, 1 ]
+]
+Primes after modular: { 2, 3, 5 }
+Log bound: 3057
+Primes after local kraus: { 2, 3 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 86 \ 120 ) Trying to eliminate case = [
+    [ 3/7, 10 ],
+    [ 1/8191, 20 ],
+    [ 6/7, 1/8191 ]
+]
+Primes after modular: { 2, 3, 5, 7, 11 }
+Log bound: 4182
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 87 \ 120 ) Trying to eliminate case = [
+    [ 1, 6 ],
+    [ 5/7, 12 ],
+    [ 2, 5/7 ]
+]
+Primes after modular: { 2, 3, 7 }
+Log bound: 2084
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 88 \ 120 ) Trying to eliminate case = [
+    [ 3, 2/7 ],
+    [ 5/8191, 4/7 ],
+    [ 6, 5/8191 ]
+]
+Primes after modular: { 2, 3, 5, 7, 11 }
+Log bound: 3155
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 89 \ 120 ) Trying to eliminate case = [
+    [ 5/7, 6 ],
+    [ 1/8191, 12 ],
+    [ 10/7, 1/8191 ]
+]
+Primes after modular: { 2, 3, 5, 7, 11 }
+Log bound: 3264
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 90 \ 120 ) Trying to eliminate case = [
+    [ 6, 5 ],
+    [ 1/7, 10 ],
+    [ 12, 1/7 ]
+]
+Primes after modular: { 2, 3, 5, 11 }
+Log bound: 4995
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 91 \ 120 ) Trying to eliminate case = [
+    [ 1/7, 2 ],
+    [ 15/8191, 4 ],
+    [ 2/7, 15/8191 ]
+]
+Primes after modular: { 2, 3, 7 }
+Log bound: 3234
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 92 \ 120 ) Trying to eliminate case = [
+    [ 2, 3/7 ],
+    [ 5, 6/7 ],
+    [ 4, 5 ]
+]
+Primes after modular: { 2, 3, 5, 7 }
+Log bound: 2432
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 93 \ 120 ) Trying to eliminate case = [
+    [ 1/7, 6 ],
+    [ 5, 12 ],
+    [ 2/7, 5 ]
+]
+Primes after modular: { 2, 3, 5, 11 }
+Log bound: 1935
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 94 \ 120 ) Trying to eliminate case = [
+    [ 2/7, 15 ],
+    [ 1/8191, 30 ],
+    [ 4/7, 1/8191 ]
+]
+Primes after modular: { 2, 3, 5, 7, 11 }
+Log bound: 10241
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 95 \ 120 ) Trying to eliminate case = [
+    [ 3, 2/7 ],
+    [ 1, 4/7 ],
+    [ 6, 1 ]
+]
+Primes after modular: { 2, 3, 7 }
+Log bound: 1509
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 96 \ 120 ) Trying to eliminate case = [
+    [ 2, 3 ],
+    [ 1/8191, 6 ],
+    [ 4, 1/8191 ]
+]
+Primes after modular: { 2, 3, 5 }
+Log bound: 11795
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 97 \ 120 ) Trying to eliminate case = [
+    [ 2/7, 3 ],
+    [ 1, 6 ],
+    [ 4/7, 1 ]
+]
+Primes after modular: { 2, 3, 7 }
+Log bound: 1509
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 98 \ 120 ) Trying to eliminate case = [
+    [ 1, 2 ],
+    [ 15/7, 4 ],
+    [ 2, 15/7 ]
+]
+DM
+( 99 \ 120 ) Trying to eliminate case = [
+    [ 3, 2 ],
+    [ 1/7, 4 ],
+    [ 6, 1/7 ]
+]
+Primes after modular: { 2, 3, 7 }
+Log bound: 3989
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 100 \ 120 ) Trying to eliminate case = [
+    [ 2, 3 ],
+    [ 5/8191, 6 ],
+    [ 4, 5/8191 ]
+]
+Primes after modular: { 2, 3, 7 }
+Log bound: 10475
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 101 \ 120 ) Trying to eliminate case = [
+    [ 2, 5 ],
+    [ 3, 10 ],
+    [ 4, 3 ]
+]
+Primes after modular: { 2, 3, 5 }
+Log bound: 1613
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 102 \ 120 ) Trying to eliminate case = [
+    [ 1, 6/7 ],
+    [ 5/8191, 12/7 ],
+    [ 2, 5/8191 ]
+]
+Primes after modular: { 2, 3, 5, 7, 11 }
+Log bound: 1386
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 103 \ 120 ) Trying to eliminate case = [
+    [ 2/7, 5 ],
+    [ 3, 10 ],
+    [ 4/7, 3 ]
+]
+Primes after modular: { 2, 3, 5, 11 }
+Log bound: 2068
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 104 \ 120 ) Trying to eliminate case = [
+    [ 5/7, 6 ],
+    [ 1, 12 ],
+    [ 10/7, 1 ]
+]
+Primes after modular: { 2, 3, 11 }
+Log bound: 1519
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 105 \ 120 ) Trying to eliminate case = [
+    [ 2, 3 ],
+    [ 5/57337, 6 ],
+    [ 4, 5/57337 ]
+]
+Primes after modular: { 2, 3, 7 }
+Log bound: 12639
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 106 \ 120 ) Trying to eliminate case = [
+    [ 3, 2/7 ],
+    [ 1/8191, 4/7 ],
+    [ 6, 1/8191 ]
+]
+Primes after modular: { 2, 3, 5, 7 }
+Log bound: 3155
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 107 \ 120 ) Trying to eliminate case = [
+    [ 1, 10 ],
+    [ 3/57337, 20 ],
+    [ 2, 3/57337 ]
+]
+Primes after modular: { 2, 3, 5 }
+Log bound: 12306
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 108 \ 120 ) Trying to eliminate case = [
+    [ 2, 15/7 ],
+    [ 1/8191, 30/7 ],
+    [ 4, 1/8191 ]
+]
+Primes after modular: { 2, 3, 5, 7, 11 }
+Log bound: 1478
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 109 \ 120 ) Trying to eliminate case = [
+    [ 3, 2 ],
+    [ 1, 4 ],
+    [ 6, 1 ]
+]
+Primes after modular: { 2, 3 }
+Log bound: 1846
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 110 \ 120 ) Trying to eliminate case = [
+    [ 1, 2/7 ],
+    [ 15/8191, 4/7 ],
+    [ 2, 15/8191 ]
+]
+Primes after modular: { 2, 3, 7 }
+Log bound: 1975
+Primes after local kraus: { 2, 3 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 111 \ 120 ) Trying to eliminate case = [
+    [ 1, 6 ],
+    [ 1, 12 ],
+    [ 2, 1 ]
+]
+DM
+( 112 \ 120 ) Trying to eliminate case = [
+    [ 1, 2 ],
+    [ 15/57337, 4 ],
+    [ 2, 15/57337 ]
+]
+DM
+( 113 \ 120 ) Trying to eliminate case = [
+    [ 1, 6/7 ],
+    [ 5, 12/7 ],
+    [ 2, 5 ]
+]
+Primes after modular: { 2, 3, 5 }
+Log bound: 1386
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 114 \ 120 ) Trying to eliminate case = [
+    [ 3, 10 ],
+    [ 1, 20 ],
+    [ 6, 1 ]
+]
+Primes after modular: { 2, 3, 5 }
+Log bound: 2068
+Primes after local kraus: { 2, 3 }
+Primes after p^2: { 2, 3 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 115 \ 120 ) Trying to eliminate case = [
+    [ 2, 3/7 ],
+    [ 1/8191, 6/7 ],
+    [ 4, 1/8191 ]
+]
+Primes after modular: { 2, 3, 5, 7 }
+Log bound: 2432
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 116 \ 120 ) Trying to eliminate case = [
+    [ 2, 15 ],
+    [ 1, 30 ],
+    [ 4, 1 ]
+]
+Primes after modular: { 2, 3 }
+Log bound: 1846
+Primes after local kraus: { 2, 3 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 117 \ 120 ) Trying to eliminate case = [
+    [ 3, 2 ],
+    [ 5/8191, 4 ],
+    [ 6, 5/8191 ]
+]
+Primes after modular: { 2, 3, 7 }
+Log bound: 10475
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 118 \ 120 ) Trying to eliminate case = [
+    [ 1, 2 ],
+    [ 3, 4 ],
+    [ 2, 3 ]
+]
+DM
+( 119 \ 120 ) Trying to eliminate case = [
+    [ 2/7, 5 ],
+    [ 3/8191, 10 ],
+    [ 4/7, 3/8191 ]
+]
+Primes after modular: { 2, 3, 5, 7, 11, 13 }
+Log bound: 3716
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+( 120 \ 120 ) Trying to eliminate case = [
+    [ 1/7, 6 ],
+    [ 1/8191, 12 ],
+    [ 2/7, 1/8191 ]
+]
+Primes after modular: { 2, 3, 5, 7 }
+Log bound: 9488
+Primes after local kraus: { 2 }
+Primes after p^2: { 2 }
+Primes after kraus with Tk { 2 }
+Primes after Thue: <<2, []>>
+<2, []>
+<<[
+    [ 3, 2 ],
+    [ 5, 4 ],
+    [ 6, 5 ]
+], <<0>>>, <[
+    [ 2, 3 ],
+    [ 5, 6 ],
+    [ 4, 5 ]
+], <<0>>>>

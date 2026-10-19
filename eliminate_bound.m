@@ -55,6 +55,7 @@ end function;
 //   A2z^n - B2x^n = 1
 // where in Schaeffer's conjecture we get the system
 //   [ [A, B], [2B, C], [C, 2A] ]
+// See Proposition 2.4 and Remark 2.5
 function new_generate_cases (k);
 
   I := Integers ();
@@ -194,7 +195,7 @@ end function;
 D:=EllipticCurveDatabase();
 
 // Calculates the set of possible conductors of the Galois representation associated to the equation Ax^n + By^n + Cz^n = 0 using
-//  James' formula
+//  Houle's formula.
 function levels(A, B, C);
 
     R := Numerator(A*B*C)*Denominator(A*B*C);
@@ -342,6 +343,7 @@ end function;
 // c = [ [A0,B0], [A1,B1], [A2,B2] ]
 // level_list set of precomputed levels that could arise from the descent
 // space_list is the space of newforms associated to each level in level_list
+// See Corollary 3.2 and Remark 3.3
 function modular_method_loop (c, level_list, space_list);
 
   levels_per_equ := [];
@@ -382,7 +384,7 @@ function modular_method_loop (c, level_list, space_list);
     [ l : l in Set(PrimeDivisors(Numerator(B0)*Denominator(B0))) meet Set(PrimeDivisors(Numerator(B1)*Denominator(B1))) | &*levels_per_equ[3] mod l ne 0 and l ge 3 and l le 1000 ]  // conditions for modular on just the third equation
   >;
 
-  // See Remark 5.2.6 (2). When we view the system modulo l, where l is one of the primes in interesting_primes, then there is only one option for
+  // See Remark 3.3 (2). When we view the system modulo l, where l is one of the primes in interesting_primes, then there is only one option for
   //  each of the variables in each equation.
   vars := [ [1/A2, -1/B1], [-1/B2, -1/B0], [1/A0, 1/A1] ];
 
@@ -558,13 +560,11 @@ end function;
 
 // Given rational numbers A, B and real rho > 1, this function finds an upper bound on n in the equation
 //  Ax^p - By^p = 1, where it is assume that Denominator(B) | b^n.
-// Based on Theorem 7.3.1
+// Based on Theorem 5.1
 function find_bound_rho (A, B, rho);
 
     lambda := Log(rho);
     n0 := rho^5;
-
-    // print n0;
 
     alpha1 := A/B; 
     a1 := (rho - 1)*Abs(Log(alpha1)) + 2*Log(Height(alpha1));
@@ -581,24 +581,16 @@ function find_bound_rho (A, B, rho);
     R1 := 4/lambda + 4/Log(n0) + lambda/(Log(n0))^2;
     S1 := 1/Log(n0) + 1/lambda;
 
-    // // print R1, S1;
-
     B1 := a1*A2*R1^2/(9*lambda);
     B2 := 2*R1*a1/(3*Log(n0)) + 2*A2*R1/(3*Log(n0));
     B3 := 16*2^(1/2)/3*(a1*A2)^(1/2)*S1^(3/2)*(Log(n0))^(-1/2);
     B4 := (Log(a1*A2*S1^2/lambda) + 3/2*lambda + 3/20)/A3 + Log(A3)/A3 + 2/Log(n0);
 
-    // // print B1,B2,B3,B4;
-
     C := Log(2/B)/A3 + (B1+B2+B3+B4);
 
     n2 := 1/(A2 * (Exp(-(Log(lambda)+1.56)) - 1/a1));
 
-    // print n2;
-
     n1 := 2;
-
-    //print C;
 
     R := RealField();
 
@@ -623,7 +615,8 @@ end function;
 
 // Given rational numbers A, B, this function finds an upper bound on n in the equation
 //  Ax^p - By^p = 1, where it is assume that Denominator(B) | b^n.
-// by trying different values for rho. Based on Theorem 7.3.1
+// We try various values of rho to minimize the bound.
+// Based on Theorem 5.1
 function find_bound (A, B);
 
     rho := 1.5;
@@ -651,15 +644,15 @@ function find_bound (A, B);
 end function;
 
 
-// Given rational numbers A, B and real rho > 1, this function finds an upper bound on n in the equation
+// Given rational numbers A, B, this function finds an upper bound on n in the equation
 //  Ax^p - By^p = 1, where it is assume that Denominator(B) | b^n.
-// Based on Remark 7.3.8
+// Based on Theorem 5.1, Lemma 5.3, and Remark 5.5
 function bound_equation (A, B);
 
-  // Need to rule out the b = 1 solution. See Lemma 7.3.3. IsPower(n) cannot handle when n=1, so it is checked seperately
+  // Need to rule out the b = 1 solution. See Lemma 5.3. IsPower(n) cannot handle when n=1, so it is checked seperately
   if Denominator (B) eq 1 and Denominator((1+B)/A) eq 1 and ((1+B)/A eq 1 or IsPower(Integers()!((1+B)/A))) then 
     return <-1, -1>;
-  // Need to rule out the b = -1 solution. See Lemma 7.3.3. IsPower(Abs(n)) cannot handle when Abs(n)=1, so it is checked separately. 
+  // Need to rule out the b = -1 solution. See Lemma 5.3. IsPower(Abs(n)) cannot handle when Abs(n)=1, so it is checked separately. 
   //  Additionally, IsPower(n) requires n > 0. Since A,B>0, it is possible that (1-B)/A = 0, we need to check this too.
   elif Denominator (B) eq 1 and Denominator((1-B)/A) eq 1 and (1-B)/A ne 0 and ((1-B)/A eq -1 or IsPower(Integers()!(Abs((1-B)/A)))) then 
     return <-1, -1>;
@@ -684,6 +677,7 @@ end function;
 // We also assume that the denominators of the coefficients divide the solutions, i.e., each term is an integer.
 // c = [ [A0,B0], [A1,B1] ] denotes the system
 // primes is either a finite set of primes p that are possible exponenets for the system, or {0}, which denotes that every prime needs to be eliminated
+// See Lemma 4.2
 function local_kraus (c, primes);
 
   A0 := c[1][1];
@@ -820,6 +814,7 @@ end function;
 // We also assume that the denominators of the coefficients divide the solutions, i.e., each term is an integer.
 // c = [ [A0,B0], [A1,B1] ] denotes the system
 // primes is either a finite set of primes p that are possible exponenets for the system, or {0}, which denotes that every prime needs to be eliminated
+// See Remark 4.4
 function p_squared_obstruction (c, primes);
 
     A0 := c[1][1];
@@ -862,6 +857,7 @@ end function;
 
 // This function is specific to Schaeffer
 // We can use the relation Ck/(A0B0A1) (y/(u0u1u2))^p = Tk(x) to try and find more kraus-type obstructions
+// See Lemma 4.3
 function local_kraus_with_Tk (c, primes, k);
 
   A0 := c[1][1];
@@ -883,6 +879,7 @@ function local_kraus_with_Tk (c, primes, k);
   for p in primes diff {2} do
 
     // Look at the system mod l for l = 1 mod p
+    // Since we are incorporating a non-GFE, the obstructing prime l is not bounded by p^4.
     for kk in [2..500 by 2] do 
       l := kk*p + 1;
 
@@ -941,92 +938,12 @@ function local_kraus_with_Tk (c, primes, k);
 end function;
 
 
-// This function is specific to S_k(x)
-function counting_obstruction (c, primes, k);
-
-    A0 := c[1][1];
-    B0 := c[1][2];
-
-    A1 := c[2][1];
-    B1 := c[2][2];
-
-    A2 := c[3][1];
-    B2 := c[3][2];
-
-    bad_primes := {};
-
-    for p in primes do 
-
-        // find q^m such that lambda(q^m) | k and m <= k
-        // Impose that q ne 2 because we'll want to invert 2.
-        for q in  [ q : q in PrimesUpTo(k) | q ne 2 and k mod (q-1) eq 0 ] do
-            
-            // Need the coefficients to exist mod q^m
-            if Denominator(A0)*Denominator(B0)*Denominator(A1) mod q eq 0 then 
-                continue q;
-            end if;
-
-            for m in [ m : m in [1..k] | k mod CarmichaelLambda(q^m) eq 0 ] do 
-
-                ZmodZqm := Integers(q^m);
-                ZmodZqm_p := { u^p : u in ZmodZqm };
-
-                ZmodZqm1 := Integers(q^(m+1));
-                ZmodZqm1_p := { u^p : u in ZmodZqm1 };
-
-                // Possible values of x mod q^(m+1) based off x=B0u_0^p
-                X1 := { ZmodZqm1!(B0)*u0p : u0p in ZmodZqm1_p };
-
-                // Possible values of x mod q^(m+1) based off x+1=A0u_1^p
-                X2 := { ZmodZqm1!(A0)*u1p - 1 : u1p in ZmodZqm1_p };
-
-                // Possible values of x mod q^(m+1) based off 2x+1=A1u_2^p
-                X3 := { (ZmodZqm1!(A1)*u2p - 1)*ZmodZqm1!(2^(-1)) : u2p in ZmodZqm1_p };
-
-                possible_congruences := X1 meet X2 meet X3;
-
-                for r in possible_congruences do 
-
-                    // S_k(x) = count 
-                    count := #{ i : i in [1..r] | i mod q ne 0 } mod q^m;
-
-                    // If the count is a pth power, then we'll calculate Tk in two ways
-                    if count in ZmodZqm_p then 
-
-                        Tk_Ck := TkCk (k);
-
-                        // Possible values of Tk(x) mod q^(m+1) based off Tk(x) = Ck/(A0B0A1) * (y/(u0u1u2))^p
-                        possible_Tk := { ZmodZqm1!(Tk_Ck[2]/(A0*A1*B0))*up : up in ZmodZqm1_p };
-
-                        // need to try a different q^m
-                        if ZmodZqm1!(Evaluate (Tk_Ck[1], Integers()!(r))) in possible_Tk then 
-                            continue m;
-                        end if;
-
-                    end if;
-
-                end for;
-
-                // If we make it out of the for loop, then none of the counts are pth powers or Tk is inconsistent, hence a contradiction
-                print "Obstruction found with q =", q, "and m =", m;
-                continue p;
-            
-            end for;
-
-        end for;
-
-        // If we make it out of this loop, then we could not find a q^m that provides a contradiction
-        bad_primes := bad_primes join {p};
-    
-    end for;
-
-    return bad_primes;
-
-end function;
-
-
-
-
+// Chooses one of the three equations to run MAGMA's Thue solver on based on the following heuristic:
+//  After clearing denominators so that we have integer coefficients, we minimize the number of prime factors of the constant
+//  Then minimize the product of the coefficients.
+// If there are no solutions to the system, or the solution does not satisfy Proposition 2.4 or Remark 2.5 (i.e., u_i = 0),
+//  then we consider the exponent eliminated. 
+// Otherwise, we collect any solutions for manual checking.
 function run_thue (c, primes);
 
   bad_primes := <<2,[]>>;
@@ -1136,14 +1053,12 @@ function run_thue (c, primes);
 end function;
 
 
-
-
-
 // Tries to eliminate the system of equations for every exponent up to the bound from having solutions
 // First, we check if any of the equations are of the form of DM
 // Next, we check if there is the trivial solution to the system
 // Then we run the modular method
-// Finally, we use local_kraus
+// Next, we use local methods: local_kraus, p_squared, and local_kraus_with_Tk
+// Finally, if there are any exponents > 2 remaining, we use MAGMA's Thue solver in our function solve_thue
 function eliminate (c, level_list, space_list, k);
 
   A0 := c[1][1];
@@ -1198,10 +1113,6 @@ function eliminate (c, level_list, space_list, k);
   bad_primes := local_kraus_with_Tk (c, bad_primes diff {2}, k);
 
   print "Primes after kraus with Tk", bad_primes;
-
-  bad_primes := counting_obstruction (c, bad_primes diff {2}, k);
-
-  print "Primes after counting obstruction:", bad_primes;
 
   bad_primes := run_thue (c, bad_primes diff {2});
   
